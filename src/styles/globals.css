@@ -1,27 +1,39 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --h6: "Open Sans";
+  --h3: Martel;
+  --h4: Montserrat;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --h6-size: 14px;
+  --h3-size: 24px;
+  --h5-size: 16px;
+  --font-size-mini: 15px;
+  --h2-size: 40px;
+  --h4-size: 20px;
+  --h1-size: 58px;
+
+  /* Colors */
+  --light-text-color: #fff;
+  --text-color: #252b42;
+  --color-gray-100: #fafafa;
+  --color-gray-200: rgba(0, 0, 0, 0.5);
+  --muted-color: #bdbdbd;
+  --primary-color: #d0a144;
+  --color-gainsboro-100: #e6e6e6;
+  --color-gainsboro-200: #dedede;
+  --color-whitesmoke-100: #f9f9f9;
+  --color-whitesmoke-200: #eee;
+  --secondary-color-2: #784f33;
+  --second-text-color: #737373;
+  --secondary-color-4: #295c7a;
+  --color-antiquewhite: #f6e4d7;
+  --color-lightskyblue: #a9d6ff;
+
 }
