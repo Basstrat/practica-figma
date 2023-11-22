@@ -1,8 +1,17 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+// pages/inicio.tsx
+import Layout from '../components/layout';
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+const Index = () => {
+    return (
+      <div>
+        <Layout />
+        
+ 
+      </div>
+    );
+  };
   
-}
+  export default Index;
+  
+
+  

@@ -1,4 +1,6 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
 body {
   margin: 0;
   line-height: normal;
@@ -6,9 +8,7 @@ body {
 :root {
   /* fonts */
   --h6: "Open Sans";
-  --h3: Martel;
-  --h4: Montserrat;
-  --font-roboto: Roboto;
+
 
   /* font sizes */
   --h6-size: 14px;
